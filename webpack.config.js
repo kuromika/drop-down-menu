@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Drop-down menu",
+      template: "./src/index.html"
     }),
   ],
   module: {
